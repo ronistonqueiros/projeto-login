@@ -13,6 +13,7 @@ Grandes Telas: acima de 1200px
 @media screen and (min-width: 769px) and (max-width: 992px) {
     section#login {
          width: 90vw;
+         
     }
 
     section#login > div#imagem {
@@ -32,7 +33,17 @@ Grandes Telas: acima de 1200px
         position: relative;
         float: right;
         width: 70%;
+        
+           
     }
+
+    div#formulario > h1 {
+        
+        padding-top: 100px;
+        width: 10px;
+        height:150px;
+    }
+
 
    
 }
@@ -59,6 +70,12 @@ Grandes Telas: acima de 1200px
         position: relative;
         float: right;
         width: 70%;
+    }
+
+    div#formulario > p {
+        font-size: 1.2em;
+        text-align: center;
+    
     }
 
    
