@@ -31,7 +31,7 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    
     overflow: hidden;
 
     background-color: #041E42;
@@ -41,6 +41,7 @@ section#login {
     border-radius: 20px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.458);
 
+    transform: translate(-50%,-50%);
     transition: width 0.2s, heigth 0.2s;
     transition-timing-function: ease;
     
@@ -94,10 +95,11 @@ div.campo > input {
     font-size: 1em;
     width: calc(100% - 40px);
     height: 100%;
-    transform: translateY(-9px);
+    
     border: 0px;
     border-radius: 8px;
     padding: 4px;
+    transform: translateY(-9px);
 }
 
 form > div.campo {
